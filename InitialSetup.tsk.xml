@@ -1,0 +1,112 @@
+<TaskerData sr="" dvi="1" tv="6.0.10">
+	<Task sr="task14">
+		<cdate>1668504280486</cdate>
+		<edate>1668603953286</edate>
+		<id>14</id>
+		<nme>InitialSetup</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>335</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%app_icon
+Icon
+Icon for the app&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%app_name
+Name
+Name of the App&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%app_package
+Package
+Unique package name for the app&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3"/>
+			<Str sr="arg2" ve="3"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>123</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">mkdir /data/data/%app_package/fonts;
+https://github.com/izryel/%app_package/retroidica.ttf -O /data/data/%app_package/fonts/retroica.ttf
+cp /sdcard/download/retroica/Retroica.ttf /data/data/%app_package/fonts/retroica.ttf</Str>
+			<Int sr="arg1" val="5"/>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3">%Output</Str>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Int sr="arg7" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%Font</Str>
+			<Str sr="arg1" ve="3">/data/data/%app_package/fonts/retroica.ttf</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%Background</Str>
+			<Str sr="arg1" ve="3">/storage/emulated/0/Pictures/Screenshots/Screenshot_2022-11-15-15-41-44-579.jpg</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="0"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>389</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""/&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">%AztecGenPrefix,%AztecGenSuffix,%AztecGet</Str>
+			<Str sr="arg2" ve="3">,</Str>
+			<Str sr="arg3" ve="3">d9Buu8lizlOMh/gOiV/0MA==9QW4r6llFXf7oySn84kjkw==|().254Z()https://barcode.tec-it.com/barcode.ashx?data=</Str>
+			<Str sr="arg4" ve="3">()</Str>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="3"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>123</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">cp /storage/emulated/0/download.gif /data/data/%app_package/qr_code.gif</Str>
+			<Int sr="arg1" val="38"/>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Int sr="arg7" val="0"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>547</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">%Aztec</Str>
+			<Str sr="arg1" ve="3">/data/data/%app_package/qr_code.gif</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="0"/>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%InitialSetupComplete</Str>
+			<Str sr="arg1" ve="3">true</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="0"/>
+		</Action>
+	</Task>
+</TaskerData>
