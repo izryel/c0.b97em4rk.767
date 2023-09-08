@@ -1,7 +1,7 @@
 # Tr4ns1t G0 T1ck3t 4pp
 ##### co.bytemark.tgt.cf
 ###### ⚠️ This project is for educational purposes only, if you use this on any transit system, Metro or Sound Transit, that is your fault as you potentially breaking public trust, when you can humbly ask for a ride, or stealing service from a 3rd party transit service, and is against the law
-# [![Build Status](https://github.com/izryel/co.bytemark.tgt.cf/raw/main/status.svg)](https://github.com/izryel/co.bytemark.tgt.cf)
+# [![Build Status](https://github.com/izryel/co.bytemark.tgt.cf/raw/main/status.svg)](https://github.com/izryel/co.bytemark.tgt.cf) [![Build Status](https://github.com/izryel/co.bytemark.tgt.cf/raw/main/version.svg)](https://github.com/izryel/co.bytemark.tgt.cf)
 # Scope:
 > Any non-NFC method to reduce potential for stolen fare is below industry best-practices, being that, visual validation is circumnavigatable due to human error, and laser scanning barcodes can be tricked, even if encrypted, by well reverse engineer decryped data-strings, and regenerated with barcode generators.
 
