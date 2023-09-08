@@ -4,8 +4,6 @@ Transit GO Ticket proof of concept counterfieting app
 
 Designed in tasker
 To show how easily this is done without full publish, just half-source code
-poc:c0.b97em4rk.767
-pkg:co.bytemark.tgt
 
 The hardest part was decoding their aztec code that fare-enforcement scan.
 
