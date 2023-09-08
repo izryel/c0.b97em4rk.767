@@ -3,8 +3,7 @@
     <stop offset="0" stop-color="#0a1930" stop-opacity=".1"/>
     <stop offset="1" stop-opacity=".1"/>
   </linearGradient>
-  <rect rx="3" width="120" height="20" fill="#000"/>
-  <rect rx="3" x="37" width="61" height="20" fill="#000"/>
+  <rect rx="3" x="3" width="161" height="20" fill="#000"/>
   <path fill="#fff" d="M37 0h4v20h-4z"/>
   <rect rx="3" width="98" height="20" fill="url(#a)"/>
   <g fill="#fff" text-anchor="middle" font-family="DejaVu Sans,Verdana,Geneva,sans-serif" font-size="11">
