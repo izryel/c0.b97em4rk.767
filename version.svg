@@ -4,7 +4,6 @@
     <stop offset="1" stop-opacity=".1"/>
   </linearGradient>
   <rect rx="3" width="120" height="20" fill="#000"/>
-  <text x="19.5" y="14" fill="#fff">version</text>
   <rect rx="3" x="37" width="61" height="20" fill="#000"/>
   <path fill="#fff" d="M37 0h4v20h-4z"/>
   <rect rx="3" width="98" height="20" fill="url(#a)"/>
