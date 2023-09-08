@@ -1,12 +1,12 @@
-<TaskerData sr="" dvi="1" tv="6.0.10">
-	<dmetric>720.0,1450.0</dmetric>
-	<Scene sr="sceneTicketOverlay">
+<TaskerData sr="" dvi="1" tv="6.1.32">
+	<dmetric>720.0,1486.0</dmetric>
+	<Scene sr="sceneco.bytemark.tgt.cf.Scene">
 		<cdate>1668304021988</cdate>
-		<edate>1668645429660</edate>
+		<edate>1694182926534</edate>
 		<gridSize>1</gridSize>
 		<heightLand>-1</heightLand>
 		<heightPort>1600</heightPort>
-		<nme>TicketOverlay</nme>
+		<nme>co.bytemark.tgt.cf.Scene</nme>
 		<widthLand>-1</widthLand>
 		<widthPort>720</widthPort>
 		<ImageElement sr="elements0" ve="2">
@@ -19,8 +19,8 @@
 			<Int sr="arg2" val="255"/>
 		</ImageElement>
 		<RectElement sr="elements1">
-			<clickTask>5</clickTask>
-			<geom>0,352,717,1024,-1,-1,-1,-1</geom>
+			<clickTask>9</clickTask>
+			<geom>0,352,717,769,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">RectangleFull</Str>
 			<Int sr="arg1" val="0"/>
 			<Str sr="arg2" ve="3">#FFFFFFFF</Str>
@@ -31,22 +31,26 @@
 			<Int sr="arg7" val="0"/>
 		</RectElement>
 		<ImageElement sr="elements10" ve="2">
-			<geom>0,1217,177,194,-1,-1,-1,-1</geom>
-			<Str sr="arg0" ve="3">Bus1</Str>
-			<Img sr="arg1" ve="2">
-				<fle>/storage/emulated/0/Sketch/bus.png</fle>
-			</Img>
-			<Int sr="arg2" val="255"/>
-		</ImageElement>
-		<ImageElement sr="elements11" ve="2">
 			<geom>0,1219,177,194,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Bus2</Str>
 			<Img sr="arg1" ve="2">
-				<fle>/storage/emulated/0/Sketch/bus.png</fle>
+				<fle>/storage/emulated/0/Tasker/projects/co.bytemark.tgt.cf/files/images/bus.png</fle>
 			</Img>
 			<Int sr="arg2" val="255"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3"/>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
 		</ImageElement>
-		<TextElement sr="elements12" ve="3">
+		<TextElement sr="elements11" ve="3">
 			<flags>4</flags>
 			<geom>0,1372,717,115,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">ExpirationDateTime</Str>
@@ -59,9 +63,10 @@
 			<Int sr="arg7" val="0"/>
 			<Int sr="arg8" val="0"/>
 		</TextElement>
-		<TextElement sr="elements13" ve="3">
+		<TextElement sr="elements12" ve="3">
+			<clickTask>14</clickTask>
 			<flags>4</flags>
-			<geom>0,1476,718,123,-1,-1,-1,-1</geom>
+			<geom>0,1472,718,127,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">ExpWords</Str>
 			<Str sr="arg1" ve="3">Expiration Date and Time</Str>
 			<Int sr="arg2" val="20"/>
@@ -72,7 +77,7 @@
 			<Int sr="arg7" val="0"/>
 			<Int sr="arg8" val="0"/>
 		</TextElement>
-		<TextElement sr="elements14" ve="3">
+		<TextElement sr="elements13" ve="3">
 			<flags>4</flags>
 			<geom>0,79,718,204,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">METRO</Str>
@@ -85,9 +90,9 @@
 			<Int sr="arg7" val="0"/>
 			<Int sr="arg8" val="0"/>
 		</TextElement>
-		<RectElement sr="elements15">
+		<RectElement sr="elements14">
 			<flags>4</flags>
-			<geom>470,1120,247,249,-1,-1,-1,-1</geom>
+			<geom>524,1174,188,195,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Rectangle7</Str>
 			<Int sr="arg1" val="0"/>
 			<Str sr="arg2" ve="3">#FFFFFFFF</Str>
@@ -97,10 +102,10 @@
 			<Int sr="arg6" val="0"/>
 			<Int sr="arg7" val="0"/>
 		</RectElement>
-		<ImageElement sr="elements16" ve="2">
-			<clickTask>20</clickTask>
+		<ImageElement sr="elements15" ve="2">
+			<clickTask>8</clickTask>
 			<flags>4</flags>
-			<geom>485,1132,221,226,-1,-1,-1,-1</geom>
+			<geom>539,1186,162,172,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">QR_Aztec</Str>
 			<Img sr="arg1" ve="2">
 				<var>%Aztec</var>
@@ -119,8 +124,8 @@
 				<Int sr="arg7" val="0"/>
 			</RectElement>
 		</ImageElement>
-		<TextElement sr="elements17" ve="3">
-			<clickTask>17</clickTask>
+		<TextElement sr="elements16" ve="3">
+			<clickTask>7</clickTask>
 			<flags>4</flags>
 			<geom>344,1281,130,84,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">ShowCode</Str>
@@ -133,9 +138,9 @@
 			<Int sr="arg7" val="0"/>
 			<Int sr="arg8" val="0"/>
 		</TextElement>
-		<TextElement sr="elements18" ve="3">
+		<TextElement sr="elements17" ve="3">
 			<flags>4</flags>
-			<geom>0,814,718,111,-1,-1,-1,-1</geom>
+			<geom>0,808,718,73,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">ADULT</Str>
 			<Str sr="arg1" ve="3">ADULT ($2.75)</Str>
 			<Int sr="arg2" val="40"/>
@@ -146,9 +151,9 @@
 			<Int sr="arg7" val="0"/>
 			<Int sr="arg8" val="0"/>
 		</TextElement>
-		<ImageElement sr="elements2" ve="2">
-			<clickTask>6</clickTask>
-			<geom>35,526,649,649,-1,-1,-1,-1</geom>
+		<ImageElement sr="elements18" ve="2">
+			<clickTask>10</clickTask>
+			<geom>0,472,713,753,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">QR_AztecFull</Str>
 			<Img sr="arg1" ve="2">
 				<var>%Aztec</var>
@@ -167,7 +172,7 @@
 				<Int sr="arg7" val="0"/>
 			</RectElement>
 		</ImageElement>
-		<RectElement sr="elements3">
+		<RectElement sr="elements2">
 			<flags>4</flags>
 			<geom>0,0,718,189,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">HeaderTop</Str>
@@ -179,7 +184,7 @@
 			<Int sr="arg6" val="0"/>
 			<Int sr="arg7" val="0"/>
 		</RectElement>
-		<EditTextElement sr="elements4" ve="3">
+		<EditTextElement sr="elements3" ve="3">
 			<flags>4</flags>
 			<geom>0,528,718,235,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">FocusBusLoop</Str>
@@ -192,7 +197,7 @@
 			<Int sr="arg7" val="0"/>
 			<Int sr="arg8" val="1"/>
 		</EditTextElement>
-		<RectElement sr="elements5">
+		<RectElement sr="elements4">
 			<flags>4</flags>
 			<geom>0,175,718,208,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">HeaderBottom</Str>
@@ -204,10 +209,10 @@
 			<Int sr="arg6" val="0"/>
 			<Int sr="arg7" val="0"/>
 		</RectElement>
-		<RectElement sr="elements6">
-			<clickTask>8</clickTask>
+		<RectElement sr="elements5">
+			<clickTask>11</clickTask>
 			<flags>4</flags>
-			<geom>0,372,718,492,-1,-1,-1,-1</geom>
+			<geom>0,371,718,507,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">BodyTop</Str>
 			<Int sr="arg1" val="0"/>
 			<Str sr="arg2" ve="3">#ff4095D5</Str>
@@ -217,20 +222,7 @@
 			<Int sr="arg6" val="0"/>
 			<Int sr="arg7" val="0"/>
 		</RectElement>
-		<RectElement sr="elements7">
-			<clickTask>9</clickTask>
-			<flags>4</flags>
-			<geom>0,866,718,503,-1,-1,-1,-1</geom>
-			<Str sr="arg0" ve="3">BodyBottom</Str>
-			<Int sr="arg1" val="0"/>
-			<Str sr="arg2" ve="3">#ff0072C5</Str>
-			<Str sr="arg3" ve="3"/>
-			<Int sr="arg4" val="0"/>
-			<Str sr="arg5" ve="3">#FF000000</Str>
-			<Int sr="arg6" val="0"/>
-			<Int sr="arg7" val="0"/>
-		</RectElement>
-		<RectElement sr="elements8">
+		<RectElement sr="elements6">
 			<flags>4</flags>
 			<geom>0,1367,718,134,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">FooterTop</Str>
@@ -242,7 +234,7 @@
 			<Int sr="arg6" val="0"/>
 			<Int sr="arg7" val="0"/>
 		</RectElement>
-		<RectElement sr="elements9">
+		<RectElement sr="elements7">
 			<flags>4</flags>
 			<geom>0,1485,718,114,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">FooterBottom</Str>
@@ -254,6 +246,27 @@
 			<Int sr="arg6" val="0"/>
 			<Int sr="arg7" val="0"/>
 		</RectElement>
+		<RectElement sr="elements8">
+			<clickTask>12</clickTask>
+			<flags>4</flags>
+			<geom>0,853,718,518,-1,-1,-1,-1</geom>
+			<Str sr="arg0" ve="3">BodyBottom</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#ff0072C5</Str>
+			<Str sr="arg3" ve="3"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3">#FF000000</Str>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+		</RectElement>
+		<ImageElement sr="elements9" ve="2">
+			<geom>0,1217,177,194,-1,-1,-1,-1</geom>
+			<Str sr="arg0" ve="3">Bus1</Str>
+			<Img sr="arg1" ve="2">
+				<fle>/storage/emulated/0/Tasker/projects/co.bytemark.tgt.cf/files/images/bus.png</fle>
+			</Img>
+			<Int sr="arg2" val="255"/>
+		</ImageElement>
 		<PropertiesElement sr="props">
 			<Int sr="arg0" val="2"/>
 			<Int sr="arg1" val="2"/>
@@ -265,124 +278,36 @@
 			<Str sr="arg7" ve="3"/>
 		</PropertiesElement>
 	</Scene>
-	<Task sr="task17">
-		<cdate>1668554728718</cdate>
-		<edate>1668554728718</edate>
-		<id>17</id>
-		<pri>102</pri>
-		<Action sr="act0" ve="7">
-			<code>65</code>
-			<Str sr="arg0" ve="3">TicketOverlay</Str>
-			<Str sr="arg1" ve="3">RectangleFull</Str>
-			<Int sr="arg2" val="1"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-		</Action>
-		<Action sr="act1" ve="7">
-			<code>65</code>
-			<Str sr="arg0" ve="3">TicketOverlay</Str>
-			<Str sr="arg1" ve="3">QR_AztecFull</Str>
-			<Int sr="arg2" val="1"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-		</Action>
-		<Action sr="act2" ve="7">
-			<code>67</code>
-			<Str sr="arg0" ve="3">TicketOverlay</Str>
-			<Str sr="arg1" ve="3">QR_AztecFull</Str>
-			<Int sr="arg2" val="19"/>
-		</Action>
-		<Action sr="act3" ve="7">
-			<code>65</code>
-			<Str sr="arg0" ve="3">TicketOverlay</Str>
-			<Str sr="arg1" ve="3">QR_Aztec</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-		</Action>
-		<Action sr="act4" ve="7">
-			<code>65</code>
-			<Str sr="arg0" ve="3">TicketOverlay</Str>
-			<Str sr="arg1" ve="3">ShowCode</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-		</Action>
-	</Task>
-	<Task sr="task20">
-		<cdate>1668555415303</cdate>
-		<edate>1668555415303</edate>
-		<id>20</id>
-		<pri>102</pri>
-		<Action sr="act0" ve="7">
-			<code>65</code>
-			<Str sr="arg0" ve="3">TicketOverlay</Str>
-			<Str sr="arg1" ve="3">RectangleFull</Str>
-			<Int sr="arg2" val="1"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-		</Action>
-		<Action sr="act1" ve="7">
-			<code>65</code>
-			<Str sr="arg0" ve="3">TicketOverlay</Str>
-			<Str sr="arg1" ve="3">QR_AztecFull</Str>
-			<Int sr="arg2" val="1"/>
-			<Int sr="arg3" val="400"/>
-			<Int sr="arg4" val="0"/>
-		</Action>
-	</Task>
-	<Task sr="task5">
-		<cdate>1668603286450</cdate>
-		<edate>1668603286450</edate>
-		<id>5</id>
-		<pri>102</pri>
-		<Action sr="act0" ve="7">
-			<code>65</code>
-			<Str sr="arg0" ve="3">TicketOverlay</Str>
-			<Str sr="arg1" ve="3">RectangleFull</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-		</Action>
-		<Action sr="act1" ve="7">
-			<code>65</code>
-			<Str sr="arg0" ve="3">TicketOverlay</Str>
-			<Str sr="arg1" ve="3">QR_AztecFull</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="400"/>
-			<Int sr="arg4" val="0"/>
-		</Action>
-	</Task>
-	<Task sr="task6">
+	<Task sr="task10">
 		<cdate>1668603334568</cdate>
 		<edate>1668603334568</edate>
-		<id>6</id>
+		<id>10</id>
 		<pri>102</pri>
 		<Action sr="act0" ve="7">
 			<code>65</code>
-			<Str sr="arg0" ve="3">TicketOverlay</Str>
+			<Str sr="arg0" ve="3">co.bytemark.tgt.cf.Scene</Str>
 			<Str sr="arg1" ve="3">RectangleFull</Str>
-			<Int sr="arg2" val="0"/>
+			<Int sr="arg2" val="1"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 		</Action>
 		<Action sr="act1" ve="7">
 			<code>65</code>
-			<Str sr="arg0" ve="3">TicketOverlay</Str>
+			<Str sr="arg0" ve="3">co.bytemark.tgt.cf.Scene</Str>
 			<Str sr="arg1" ve="3">QR_AztecFull</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="400"/>
 			<Int sr="arg4" val="0"/>
 		</Action>
 	</Task>
-	<Task sr="task8">
+	<Task sr="task11">
 		<cdate>1668488387049</cdate>
 		<edate>1668488387049</edate>
-		<id>8</id>
+		<id>11</id>
 		<pri>102</pri>
 		<Action sr="act0" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">SceneBody</Str>
+			<Str sr="arg0" ve="3">co.bytemark.tgt.cf.TransferColor</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
@@ -397,10 +322,10 @@
 			<Int sr="arg9" val="0"/>
 		</Action>
 	</Task>
-	<Task sr="task9">
+	<Task sr="task12">
 		<cdate>1668490913377</cdate>
 		<edate>1668490913377</edate>
-		<id>9</id>
+		<id>12</id>
 		<pri>102</pri>
 		<Action sr="act0" ve="7">
 			<code>37</code>
@@ -421,14 +346,14 @@
 		</Action>
 		<Action sr="act1" ve="7">
 			<code>55</code>
-			<Str sr="arg0" ve="3">TicketOverlay</Str>
+			<Str sr="arg0" ve="3">co.bytemark.tgt.cf.Scene</Str>
 			<Str sr="arg1" ve="3">BodyTop</Str>
 			<Str sr="arg2" ve="3">#FFFE993F</Str>
 			<Str sr="arg3" ve="3">#FFFE993F</Str>
 		</Action>
 		<Action sr="act2" ve="7">
 			<code>55</code>
-			<Str sr="arg0" ve="3">TicketOverlay</Str>
+			<Str sr="arg0" ve="3">co.bytemark.tgt.cf.Scene</Str>
 			<Str sr="arg1" ve="3">BodyBottom</Str>
 			<Str sr="arg2" ve="3">#FFFF7701</Str>
 			<Str sr="arg3" ve="3">#FFFF7701</Str>
@@ -455,14 +380,14 @@
 		</Action>
 		<Action sr="act5" ve="7">
 			<code>55</code>
-			<Str sr="arg0" ve="3">TicketOverlay</Str>
+			<Str sr="arg0" ve="3">co.bytemark.tgt.cf.Scene</Str>
 			<Str sr="arg1" ve="3">BodyTop</Str>
 			<Str sr="arg2" ve="3">#ff4095D5</Str>
 			<Str sr="arg3" ve="3">#ff4095D5</Str>
 		</Action>
 		<Action sr="act6" ve="7">
 			<code>55</code>
-			<Str sr="arg0" ve="3">TicketOverlay</Str>
+			<Str sr="arg0" ve="3">co.bytemark.tgt.cf.Scene</Str>
 			<Str sr="arg1" ve="3">BodyBottom</Str>
 			<Str sr="arg2" ve="3">#ff0072C5</Str>
 			<Str sr="arg3" ve="3">#ff0072C5</Str>
@@ -479,6 +404,115 @@
 		</Action>
 		<Action sr="act8" ve="7">
 			<code>38</code>
+		</Action>
+	</Task>
+	<Task sr="task14">
+		<cdate>1694182068577</cdate>
+		<edate>1694182068577</edate>
+		<id>14</id>
+		<Action sr="act0" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">co.bytemark.tgt.cf.AztecCode</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task7">
+		<cdate>1668554728718</cdate>
+		<edate>1668554728718</edate>
+		<id>7</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>65</code>
+			<Str sr="arg0" ve="3">co.bytemark.tgt.cf.Scene</Str>
+			<Str sr="arg1" ve="3">RectangleFull</Str>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>65</code>
+			<Str sr="arg0" ve="3">co.bytemark.tgt.cf.Scene</Str>
+			<Str sr="arg1" ve="3">QR_AztecFull</Str>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>67</code>
+			<Str sr="arg0" ve="3">co.bytemark.tgt.cf.Scene</Str>
+			<Str sr="arg1" ve="3">QR_AztecFull</Str>
+			<Int sr="arg2" val="19"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>65</code>
+			<Str sr="arg0" ve="3">co.bytemark.tgt.cf.Scene</Str>
+			<Str sr="arg1" ve="3">QR_Aztec</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>65</code>
+			<Str sr="arg0" ve="3">co.bytemark.tgt.cf.Scene</Str>
+			<Str sr="arg1" ve="3">ShowCode</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task8">
+		<cdate>1668555415303</cdate>
+		<edate>1668555415303</edate>
+		<id>8</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>65</code>
+			<Str sr="arg0" ve="3">co.bytemark.tgt.cf.Scene</Str>
+			<Str sr="arg1" ve="3">RectangleFull</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>65</code>
+			<Str sr="arg0" ve="3">co.bytemark.tgt.cf.Scene</Str>
+			<Str sr="arg1" ve="3">QR_AztecFull</Str>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="400"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task9">
+		<cdate>1668603286450</cdate>
+		<edate>1668603286450</edate>
+		<id>9</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>65</code>
+			<Str sr="arg0" ve="3">co.bytemark.tgt.cf.Scene</Str>
+			<Str sr="arg1" ve="3">RectangleFull</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>65</code>
+			<Str sr="arg0" ve="3">co.bytemark.tgt.cf.Scene</Str>
+			<Str sr="arg1" ve="3">QR_AztecFull</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="400"/>
+			<Int sr="arg4" val="0"/>
 		</Action>
 	</Task>
 </TaskerData>
