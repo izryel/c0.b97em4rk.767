@@ -1,0 +1,1196 @@
+<TaskerData sr="" dvi="1" tv="6.1.32">
+	<dmetric>720.0,1486.0</dmetric>
+	<Project sr="proj0" ve="2">
+		<cdate>1694144606676</cdate>
+		<name>Transit Go Ticket App</name>
+		<scenes>co.bytemark.tgt.cf.Scene</scenes>
+		<tids>7,2,6,10,9,12,13,14,8,11,3</tids>
+		<Kid sr="Kid">
+			<launchID>3</launchID>
+			<pkg>co.bytemark.tgt.cf</pkg>
+			<vTarg>29</vTarg>
+			<vnme>1.1.2</vnme>
+			<vnum>5</vnum>
+		</Kid>
+		<Img sr="icon" ve="2">
+			<fle>/storage/emulated/0/Tasker/hh.png</fle>
+		</Img>
+	</Project>
+	<Scene sr="sceneco.bytemark.tgt.cf.Scene">
+		<cdate>1668304021988</cdate>
+		<edate>1694182926534</edate>
+		<gridSize>1</gridSize>
+		<heightLand>-1</heightLand>
+		<heightPort>1600</heightPort>
+		<nme>co.bytemark.tgt.cf.Scene</nme>
+		<widthLand>-1</widthLand>
+		<widthPort>720</widthPort>
+		<ImageElement sr="elements0" ve="2">
+			<flags>6</flags>
+			<geom>0,0,719,1600,-1,-1,-1,-1</geom>
+			<Str sr="arg0" ve="3">BackGroynd</Str>
+			<Img sr="arg1" ve="2">
+				<var>%Background</var>
+			</Img>
+			<Int sr="arg2" val="255"/>
+		</ImageElement>
+		<RectElement sr="elements1">
+			<clickTask>9</clickTask>
+			<geom>0,352,717,769,-1,-1,-1,-1</geom>
+			<Str sr="arg0" ve="3">RectangleFull</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg3" ve="3"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3">#FF000000</Str>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+		</RectElement>
+		<ImageElement sr="elements10" ve="2">
+			<geom>0,1219,177,194,-1,-1,-1,-1</geom>
+			<Str sr="arg0" ve="3">Bus2</Str>
+			<Img sr="arg1" ve="2">
+				<fle>/storage/emulated/0/Tasker/projects/co.bytemark.tgt.cf/files/images/bus.png</fle>
+			</Img>
+			<Int sr="arg2" val="255"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3"/>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</ImageElement>
+		<TextElement sr="elements11" ve="3">
+			<flags>4</flags>
+			<geom>0,1372,717,115,-1,-1,-1,-1</geom>
+			<Str sr="arg0" ve="3">ExpirationDateTime</Str>
+			<Str sr="arg1" ve="3">%Expiration</Str>
+			<Int sr="arg2" val="30"/>
+			<Int sr="arg3" val="110"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3">%Font</Str>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<TextElement sr="elements12" ve="3">
+			<clickTask>14</clickTask>
+			<flags>4</flags>
+			<geom>0,1472,718,127,-1,-1,-1,-1</geom>
+			<Str sr="arg0" ve="3">ExpWords</Str>
+			<Str sr="arg1" ve="3">Expiration Date and Time</Str>
+			<Int sr="arg2" val="20"/>
+			<Int sr="arg3" val="90"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3">%Font</Str>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<TextElement sr="elements13" ve="3">
+			<flags>4</flags>
+			<geom>0,79,718,204,-1,-1,-1,-1</geom>
+			<Str sr="arg0" ve="3">METRO</Str>
+			<Str sr="arg1" ve="3">METRO</Str>
+			<Int sr="arg2" val="67"/>
+			<Int sr="arg3" val="90"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3">%Font</Str>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<RectElement sr="elements14">
+			<flags>4</flags>
+			<geom>524,1174,188,195,-1,-1,-1,-1</geom>
+			<Str sr="arg0" ve="3">Rectangle7</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg3" ve="3"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3">#FF000000</Str>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+		</RectElement>
+		<ImageElement sr="elements15" ve="2">
+			<clickTask>8</clickTask>
+			<flags>4</flags>
+			<geom>539,1186,162,172,-1,-1,-1,-1</geom>
+			<Str sr="arg0" ve="3">QR_Aztec</Str>
+			<Img sr="arg1" ve="2">
+				<var>%Aztec</var>
+			</Img>
+			<Int sr="arg2" val="255"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3"/>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</ImageElement>
+		<TextElement sr="elements16" ve="3">
+			<clickTask>7</clickTask>
+			<flags>4</flags>
+			<geom>344,1281,130,84,-1,-1,-1,-1</geom>
+			<Str sr="arg0" ve="3">ShowCode</Str>
+			<Str sr="arg1" ve="3">Show Code</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF000000</Str>
+			<Str sr="arg5" ve="3">%Font</Str>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<TextElement sr="elements17" ve="3">
+			<flags>4</flags>
+			<geom>0,808,718,73,-1,-1,-1,-1</geom>
+			<Str sr="arg0" ve="3">ADULT</Str>
+			<Str sr="arg1" ve="3">ADULT ($2.75)</Str>
+			<Int sr="arg2" val="40"/>
+			<Int sr="arg3" val="110"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3">%Font</Str>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<ImageElement sr="elements18" ve="2">
+			<clickTask>10</clickTask>
+			<geom>0,472,713,753,-1,-1,-1,-1</geom>
+			<Str sr="arg0" ve="3">QR_AztecFull</Str>
+			<Img sr="arg1" ve="2">
+				<var>%Aztec</var>
+			</Img>
+			<Int sr="arg2" val="255"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3"/>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</ImageElement>
+		<RectElement sr="elements2">
+			<flags>4</flags>
+			<geom>0,0,718,189,-1,-1,-1,-1</geom>
+			<Str sr="arg0" ve="3">HeaderTop</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#ffFFD374</Str>
+			<Str sr="arg3" ve="3"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3">#FF000000</Str>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+		</RectElement>
+		<EditTextElement sr="elements3" ve="3">
+			<flags>4</flags>
+			<geom>0,528,718,235,-1,-1,-1,-1</geom>
+			<Str sr="arg0" ve="3">FocusBusLoop</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="6"/>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3">#00000000</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="1"/>
+		</EditTextElement>
+		<RectElement sr="elements4">
+			<flags>4</flags>
+			<geom>0,175,718,208,-1,-1,-1,-1</geom>
+			<Str sr="arg0" ve="3">HeaderBottom</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#ffffc243</Str>
+			<Str sr="arg3" ve="3"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3">#FF000000</Str>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+		</RectElement>
+		<RectElement sr="elements5">
+			<clickTask>11</clickTask>
+			<flags>4</flags>
+			<geom>0,371,718,507,-1,-1,-1,-1</geom>
+			<Str sr="arg0" ve="3">BodyTop</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#ff4095D5</Str>
+			<Str sr="arg3" ve="3"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3">#FF000000</Str>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+		</RectElement>
+		<RectElement sr="elements6">
+			<flags>4</flags>
+			<geom>0,1367,718,134,-1,-1,-1,-1</geom>
+			<Str sr="arg0" ve="3">FooterTop</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#ffc05c5c</Str>
+			<Str sr="arg3" ve="3"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3">#FF000000</Str>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+		</RectElement>
+		<RectElement sr="elements7">
+			<flags>4</flags>
+			<geom>0,1485,718,114,-1,-1,-1,-1</geom>
+			<Str sr="arg0" ve="3">FooterBottom</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#ffab2524</Str>
+			<Str sr="arg3" ve="3"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3">#FF000000</Str>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+		</RectElement>
+		<RectElement sr="elements8">
+			<clickTask>12</clickTask>
+			<flags>4</flags>
+			<geom>0,853,718,518,-1,-1,-1,-1</geom>
+			<Str sr="arg0" ve="3">BodyBottom</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#ff0072C5</Str>
+			<Str sr="arg3" ve="3"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3">#FF000000</Str>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+		</RectElement>
+		<ImageElement sr="elements9" ve="2">
+			<geom>0,1217,177,194,-1,-1,-1,-1</geom>
+			<Str sr="arg0" ve="3">Bus1</Str>
+			<Img sr="arg1" ve="2">
+				<fle>/storage/emulated/0/Tasker/projects/co.bytemark.tgt.cf/files/images/bus.png</fle>
+			</Img>
+			<Int sr="arg2" val="255"/>
+		</ImageElement>
+		<PropertiesElement sr="props">
+			<Int sr="arg0" val="2"/>
+			<Int sr="arg1" val="2"/>
+			<Str sr="arg2" ve="3">#00FFFFFF</Str>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3">ST</Str>
+			<Str sr="arg5" ve="3"/>
+			<Img sr="arg6" ve="2"/>
+			<Str sr="arg7" ve="3"/>
+		</PropertiesElement>
+	</Scene>
+	<Task sr="task10">
+		<cdate>1668603334568</cdate>
+		<edate>1668603334568</edate>
+		<id>10</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>65</code>
+			<Str sr="arg0" ve="3">co.bytemark.tgt.cf.Scene</Str>
+			<Str sr="arg1" ve="3">RectangleFull</Str>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>65</code>
+			<Str sr="arg0" ve="3">co.bytemark.tgt.cf.Scene</Str>
+			<Str sr="arg1" ve="3">QR_AztecFull</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="400"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task11">
+		<cdate>1668488387049</cdate>
+		<edate>1668488387049</edate>
+		<id>11</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">co.bytemark.tgt.cf.TransferColor</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="0"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task12">
+		<cdate>1668490913377</cdate>
+		<edate>1668490913377</edate>
+		<id>12</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>37</code>
+			<coll>true</coll>
+			<ConditionList sr="if">
+				<bool0>Or</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%SceneBody</lhs>
+					<op>2</op>
+					<rhs>Reg</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%SceneBody</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>55</code>
+			<Str sr="arg0" ve="3">co.bytemark.tgt.cf.Scene</Str>
+			<Str sr="arg1" ve="3">BodyTop</Str>
+			<Str sr="arg2" ve="3">#FFFE993F</Str>
+			<Str sr="arg3" ve="3">#FFFE993F</Str>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>55</code>
+			<Str sr="arg0" ve="3">co.bytemark.tgt.cf.Scene</Str>
+			<Str sr="arg1" ve="3">BodyBottom</Str>
+			<Str sr="arg2" ve="3">#FFFF7701</Str>
+			<Str sr="arg3" ve="3">#FFFF7701</Str>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%SceneBody</Str>
+			<Str sr="arg1" ve="3">Alt</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="0"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>43</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%SceneBody</lhs>
+					<op>2</op>
+					<rhs>Alt</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>55</code>
+			<Str sr="arg0" ve="3">co.bytemark.tgt.cf.Scene</Str>
+			<Str sr="arg1" ve="3">BodyTop</Str>
+			<Str sr="arg2" ve="3">#ff4095D5</Str>
+			<Str sr="arg3" ve="3">#ff4095D5</Str>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>55</code>
+			<Str sr="arg0" ve="3">co.bytemark.tgt.cf.Scene</Str>
+			<Str sr="arg1" ve="3">BodyBottom</Str>
+			<Str sr="arg2" ve="3">#ff0072C5</Str>
+			<Str sr="arg3" ve="3">#ff0072C5</Str>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%SceneBody</Str>
+			<Str sr="arg1" ve="3">Reg</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="0"/>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>38</code>
+		</Action>
+	</Task>
+	<Task sr="task13">
+		<cdate>1668504280486</cdate>
+		<edate>1694184457218</edate>
+		<id>13</id>
+		<nme>co.bytemark.tgt.cf.InitialSetup</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>319</code>
+			<Str sr="arg0" ve="3">android.permission.SCHEDULE_EXACT_ALARM
+android.permission.PACKAGE_USAGE_STATS
+android.permission.FOREGROUND_SERVICE
+android.permission.INTERNET
+android.permission.QUERY_ALL_PACKAGES
+android.permission.SYSTEM_ALERT_WINDOW
+android.permission.WAKE_LOCK
+android.permission.READ_EXTERNAL_STORAGE
+android.permission.WRITE_EXTERNAL_STORAGE
+android.permission.MANAGE_EXTERNAL_STORAGE
+android.permission.POST_NOTIFICATIONS
+android.permission.READ_MEDIA_AUDIO
+android.permission.READ_MEDIA_VIDEO
+android.permission.READ_MEDIA_IMAGES</Str>
+			<Str sr="arg1" ve="3"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>335</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%app_icon
+Icon
+Icon for the app&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%app_name
+Name
+Name of the App&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%app_package
+Package
+Unique package name for the app&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3"/>
+			<Str sr="arg2" ve="3"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>409</code>
+			<Str sr="arg0" ve="3">/data/data/%app_package/files</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>339</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%http_cookies
+Cookies
+The cookies the server sent in the response in the Cookie:COOKIE_VALUE format. You can use this directly in the 'Headers' field of the HTTP Request action&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%http_file_output
+File Output
+Will always contain the file's full path even if you specified a directory as the File to save.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%http_response_code
+Response Code
+The HTTP Code the server responded&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%http_headers()
+Response Headers
+The HTTP Headers the server sent in the response. Each header is in the 'key:value' format&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;%http_response_length
+Response Length
+The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg10" val="0"/>
+			<Int sr="arg11" val="0"/>
+			<Int sr="arg12" val="1"/>
+			<Str sr="arg2" ve="3">https://github.com/izryel/co.bytemark.tgt.cf/raw/main/files/fonts/retroica_dafont.com.ttf</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3">/data/data/%app_package/files/retroica.ttf</Str>
+			<Int sr="arg8" val="30"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>339</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%http_cookies
+Cookies
+The cookies the server sent in the response in the Cookie:COOKIE_VALUE format. You can use this directly in the 'Headers' field of the HTTP Request action&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%http_file_output
+File Output
+Will always contain the file's full path even if you specified a directory as the File to save.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%http_response_code
+Response Code
+The HTTP Code the server responded&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%http_headers()
+Response Headers
+The HTTP Headers the server sent in the response. Each header is in the 'key:value' format&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;%http_response_length
+Response Length
+The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg10" val="0"/>
+			<Int sr="arg11" val="0"/>
+			<Int sr="arg12" val="1"/>
+			<Str sr="arg2" ve="3">https://github.com/izryel/co.bytemark.tgt.cf/raw/main/files/images/bus.png</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3">/data/data/%app_package/files/bus.png</Str>
+			<Int sr="arg8" val="30"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%Font</Str>
+			<Str sr="arg1" ve="3">/data/data/%app_package/files/retroica.ttf</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="0"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>389</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""/&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">%AztecGenPrefix,%AztecGenSuffix,%AztecGet</Str>
+			<Str sr="arg2" ve="3">,</Str>
+			<Str sr="arg3" ve="3">d9Buu8lizlOMh/gOiV/0MA==9QW4r6llFXf7oySn84kjkw==|°.254Z°https://barcode.tec-it.com/barcode.ashx?data=</Str>
+			<Str sr="arg4" ve="3">°</Str>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="3"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%co_bytemark_tgt_cf_FirstRun</Str>
+			<Str sr="arg1" ve="3">complete</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task14">
+		<cdate>1694182068577</cdate>
+		<edate>1694182068577</edate>
+		<id>14</id>
+		<Action sr="act0" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">co.bytemark.tgt.cf.AztecCode</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task2">
+		<cdate>1668553508424</cdate>
+		<edate>1694182856960</edate>
+		<id>2</id>
+		<nme>co.bytemark.tgt.cf.AztecCode</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%Time</Str>
+			<Str sr="arg1" ve="3">%TIME</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>590</code>
+			<Str sr="arg0" ve="3">%Time</Str>
+			<Str sr="arg1" ve="3">.</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%AMPM</Str>
+			<Str sr="arg1" ve="3">AM</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="0"/>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%Expiration</Str>
+			<Str sr="arg1" ve="3">%DATE</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="0"/>
+		</Action>
+		<Action sr="act13" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%return</Str>
+			<Str sr="arg1" ve="3">/sdcard/.tmp.qr</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="0"/>
+		</Action>
+		<Action sr="act14" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%Expiration</Str>
+			<Str sr="arg1" ve="3">-</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3">/</Str>
+		</Action>
+		<Action sr="act15" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%Time</Str>
+			<Str sr="arg1" ve="3">\.</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3">:</Str>
+		</Action>
+		<Action sr="act16" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%Expiration</Str>
+			<Str sr="arg1" ve="3">%Expiration %Hour:%Time2 %AMPM</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="0"/>
+		</Action>
+		<Action sr="act17" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%Date</Str>
+			<Str sr="arg1" ve="3">%DATE</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="0"/>
+		</Action>
+		<Action sr="act18" ve="7">
+			<code>590</code>
+			<Str sr="arg0" ve="3">%Date</Str>
+			<Str sr="arg1" ve="3">-</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act19" ve="7">
+			<code>389</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""/&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">%VerbT,%Numeric20</Str>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3">T,20</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="3"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>37</code>
+			<coll>false</coll>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%Time1</lhs>
+					<op>7</op>
+					<rhs>12</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act20" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%AztecTextUngenerated</Str>
+			<Str sr="arg1" ve="3">%AztecGenPrefix%Numeric20%Date3-%Date1-%Date2%VerbT%Time:18%AztecGenSuffix</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="0"/>
+		</Action>
+		<Action sr="act21" ve="7">
+			<code>339</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%http_cookies
+Cookies
+The cookies the server sent in the response in the Cookie:COOKIE_VALUE format. You can use this directly in the 'Headers' field of the HTTP Request action&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%http_file_output
+File Output
+Will always contain the file's full path even if you specified a directory as the File to save.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%http_response_code
+Response Code
+The HTTP Code the server responded&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%http_headers()
+Response Headers
+The HTTP Headers the server sent in the response. Each header is in the 'key:value' format&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;%http_response_length
+Response Length
+The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg10" val="1"/>
+			<Int sr="arg11" val="0"/>
+			<Int sr="arg12" val="0"/>
+			<Str sr="arg2" ve="3">https://barcode.tec-it.com/barcode.ashx?data=%AztecTextUngenerated&amp;code=Aztec&amp;translate-esc=true&amp;download=true</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3">/sdcard/.tmp.qr</Str>
+			<Int sr="arg8" val="30"/>
+			<Int sr="arg9" val="1"/>
+		</Action>
+		<Action sr="act22" ve="7">
+			<code>126</code>
+			<Str sr="arg0" ve="3">%return</Str>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%Hour</Str>
+			<Str sr="arg1" ve="3">((%Time1)-12)+1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%Hour</Str>
+			<Str sr="arg1" ve="3">(%Time1)+1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>37</code>
+			<coll>false</coll>
+			<ConditionList sr="if">
+				<bool0>Or</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%Time1</lhs>
+					<op>7</op>
+					<rhs>11</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%Time1</lhs>
+					<op>8</op>
+					<rhs>11</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%AMPM</Str>
+			<Str sr="arg1" ve="3">PM</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="0"/>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>43</code>
+		</Action>
+	</Task>
+	<Task sr="task3">
+		<cdate>1663997511658</cdate>
+		<edate>1694182940250</edate>
+		<id>3</id>
+		<nme>co.bytemark.tgt.cf.Main</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%co_bytemark_tgt_cf_FirstRun</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">co.bytemark.tgt.cf.InitialSetup</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>300</code>
+			<label>uncreated</label>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>46</code>
+			<Str sr="arg0" ve="3">co.bytemark.tgt.cf.Scene</Str>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>68</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">co.bytemark.tgt.cf.Scene</Str>
+			<Str sr="arg1" ve="3">FocusBusLoop</Str>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act13" ve="7">
+			<code>300</code>
+			<label>hidden</label>
+		</Action>
+		<Action sr="act14" ve="7">
+			<code>47</code>
+			<Str sr="arg0" ve="3">co.bytemark.tgt.cf.Scene</Str>
+			<Int sr="arg1" val="10"/>
+			<Int sr="arg10" val="1"/>
+			<Int sr="arg2" val="100"/>
+			<Int sr="arg3" val="100"/>
+			<Int sr="arg4" val="1"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="1"/>
+			<Int sr="arg7" val="1"/>
+			<Int sr="arg8" val="1"/>
+			<Int sr="arg9" val="1"/>
+		</Action>
+		<Action sr="act15" ve="7">
+			<code>68</code>
+			<Str sr="arg0" ve="3">co.bytemark.tgt.cf.Scene</Str>
+			<Str sr="arg1" ve="3">FocusBusLoop</Str>
+			<Int sr="arg2" val="1"/>
+		</Action>
+		<Action sr="act16" ve="7">
+			<code>300</code>
+			<label>EndOfScript</label>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>300</code>
+			<label>Init</label>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">co.bytemark.tgt.cf.AztecCode</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="0"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3">%Aztec</Str>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>300</code>
+			<label>TestScene</label>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>194</code>
+			<Str sr="arg0" ve="3">co.bytemark.tgt.cf.Scene</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">%scene_status</Str>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>135</code>
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg2" ve="3">%scene_status</Str>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>300</code>
+			<label>visible</label>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">co.bytemark.tgt.cf.Scene</Str>
+		</Action>
+	</Task>
+	<Task sr="task6">
+		<cdate>1668503815625</cdate>
+		<edate>1694182414263</edate>
+		<id>6</id>
+		<nme>co.bytemark.tgt.cf.TransferColor</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>300</code>
+			<label>Init</label>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%SceneBody</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%SceneBody</Str>
+			<Str sr="arg1" ve="3">Alt</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="0"/>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>43</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%SceneBody</lhs>
+					<op>2</op>
+					<rhs>Alt</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>55</code>
+			<Str sr="arg0" ve="3">co.bytemark.tgt.cf.Scene</Str>
+			<Str sr="arg1" ve="3">BodyTop</Str>
+			<Str sr="arg2" ve="3">#ff4095D5</Str>
+			<Str sr="arg3" ve="3">#ff4095D5</Str>
+		</Action>
+		<Action sr="act13" ve="7">
+			<code>55</code>
+			<Str sr="arg0" ve="3">co.bytemark.tgt.cf.Scene</Str>
+			<Str sr="arg1" ve="3">BodyBottom</Str>
+			<Str sr="arg2" ve="3">#ff0072C5</Str>
+			<Str sr="arg3" ve="3">#ff0072C5</Str>
+		</Action>
+		<Action sr="act14" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%SceneBody</Str>
+			<Str sr="arg1" ve="3">Reg</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="0"/>
+		</Action>
+		<Action sr="act15" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act16" ve="7">
+			<code>300</code>
+			<label>FirstRun</label>
+		</Action>
+		<Action sr="act17" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%SceneBody</Str>
+			<Str sr="arg1" ve="3">Reg</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="0"/>
+		</Action>
+		<Action sr="act18" ve="7">
+			<code>135</code>
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg2" ve="3">Init</Str>
+		</Action>
+		<Action sr="act19" ve="7">
+			<code>300</code>
+			<label>EndOfScript</label>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>135</code>
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg2" ve="3">FirstRun</Str>
+		</Action>
+		<Action sr="act20" ve="7">
+			<code>137</code>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>135</code>
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg2" ve="3">MainParser</Str>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>300</code>
+			<label>MainParser</label>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>37</code>
+			<coll>false</coll>
+			<ConditionList sr="if">
+				<bool0>Or</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%SceneBody</lhs>
+					<op>2</op>
+					<rhs>Reg</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%SceneBody</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>55</code>
+			<Str sr="arg0" ve="3">co.bytemark.tgt.cf.Scene</Str>
+			<Str sr="arg1" ve="3">BodyTop</Str>
+			<Str sr="arg2" ve="3">#FFFE993F</Str>
+			<Str sr="arg3" ve="3">#FFFE993F</Str>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>55</code>
+			<Str sr="arg0" ve="3">co.bytemark.tgt.cf.Scene</Str>
+			<Str sr="arg1" ve="3">BodyBottom</Str>
+			<Str sr="arg2" ve="3">#FFFF7701</Str>
+			<Str sr="arg3" ve="3">#FFFF7701</Str>
+		</Action>
+	</Task>
+	<Task sr="task7">
+		<cdate>1668554728718</cdate>
+		<edate>1668554728718</edate>
+		<id>7</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>65</code>
+			<Str sr="arg0" ve="3">co.bytemark.tgt.cf.Scene</Str>
+			<Str sr="arg1" ve="3">RectangleFull</Str>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>65</code>
+			<Str sr="arg0" ve="3">co.bytemark.tgt.cf.Scene</Str>
+			<Str sr="arg1" ve="3">QR_AztecFull</Str>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>67</code>
+			<Str sr="arg0" ve="3">co.bytemark.tgt.cf.Scene</Str>
+			<Str sr="arg1" ve="3">QR_AztecFull</Str>
+			<Int sr="arg2" val="19"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>65</code>
+			<Str sr="arg0" ve="3">co.bytemark.tgt.cf.Scene</Str>
+			<Str sr="arg1" ve="3">QR_Aztec</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>65</code>
+			<Str sr="arg0" ve="3">co.bytemark.tgt.cf.Scene</Str>
+			<Str sr="arg1" ve="3">ShowCode</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task8">
+		<cdate>1668555415303</cdate>
+		<edate>1668555415303</edate>
+		<id>8</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>65</code>
+			<Str sr="arg0" ve="3">co.bytemark.tgt.cf.Scene</Str>
+			<Str sr="arg1" ve="3">RectangleFull</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>65</code>
+			<Str sr="arg0" ve="3">co.bytemark.tgt.cf.Scene</Str>
+			<Str sr="arg1" ve="3">QR_AztecFull</Str>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="400"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task9">
+		<cdate>1668603286450</cdate>
+		<edate>1668603286450</edate>
+		<id>9</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>65</code>
+			<Str sr="arg0" ve="3">co.bytemark.tgt.cf.Scene</Str>
+			<Str sr="arg1" ve="3">RectangleFull</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>65</code>
+			<Str sr="arg0" ve="3">co.bytemark.tgt.cf.Scene</Str>
+			<Str sr="arg1" ve="3">QR_AztecFull</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="400"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+	</Task>
+</TaskerData>
